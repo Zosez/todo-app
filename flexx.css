@@ -1,0 +1,28 @@
+body{
+    background-color: #6D9773;
+
+}
+
+header{
+    background-color: #0C3B2E;
+    height:120px
+}
+.identifier{
+    margin-right: 100px;
+    float: right;
+    
+}
+.user{
+    height: 70px;
+    margin-top: 25px;
+    float: left;
+    border-radius: 40px;
+}
+.user_name{
+    padding-top: 1px;
+    padding-left: 100px;
+    font-size: 22px;
+    color: white;
+    font-family:serif;
+    
+}
