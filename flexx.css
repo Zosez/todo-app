@@ -52,20 +52,38 @@ header{
     padding: 15px;
 }
 main{
-    border: 1px solid black;
+    
     padding: 10px;
     margin-top: 5px;
     height:90%;
-    width: 920px;
+    width: 67%;
     background-color: #0C3B2E;
     float: left;
 }
 aside{
-    border: 1px solid black;
-    padding: 200px;
-    display: inline;
-    clear: both;
+    
+    height: 60%;
     margin-left: 5px;
+    width: 32%;
+    float: right;
+    margin: 5px;
+    background-color: #0C3B2E;
+}
+article{
     
+    height: 29%;
+    width:32%;
+    display: flex;
+    margin-left: 914px;
     
+}
+.add{
+    padding: 60px;
+    border-radius: 100%;
+    background-color: #BB8A52;
+    border: 0px;
+    margin-left: 140px;
+    align-self: center;
+    font-size: 22px;
+    font-weight: bold;
 }
