@@ -84,7 +84,7 @@ article{
     font-weight: bold;
 }
 .status{
-    font-size: 40px;
+    font-size: 30px;
     font-weight:500;
     padding: 5px;
     
@@ -93,7 +93,7 @@ article{
     display: inline;
 }
 .dropdown-img{
-    height: 25px;
+    height: 20px;
     width: 30px;
     margin-left: 10px;
 }
@@ -101,7 +101,55 @@ article{
 .dropdown-content{
     display: none;
     position: absolute;
+    margin-left: 20px;
 }
 .status:hover .dropdown-content{
     display: block;
+}
+.task{
+    border: solid #BB8A52 1px;
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #BB8A52;
+}
+.task-header{
+    
+    margin: 5px;
+}
+.task-checkbox{
+    border: solid black 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 2px;
+    float: left;
+}
+.task-title{
+    margin-left: 30px;
+}
+.task-body{
+    margin: 7px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.task-footer{
+    margin: 10px;
+    margin-top: 30px;
+}
+.priority{
+    width: 70px;
+    padding: 5px;
+    margin-left: 30px;
+    color: darkgoldenrod;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #dadb93f6;
+    
+}
+.tasks{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
